@@ -1,7 +1,12 @@
 body {
-  font-family: Helvetica;
+  color: white;
+  background-color: black;
 }
 .app {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.list-group-item {
+  background-color: transparent;
 }
