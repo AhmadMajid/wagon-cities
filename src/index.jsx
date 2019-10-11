@@ -1,3 +1,5 @@
+import { combineReducers } from 'redux';
+import CitiesReducer from './cities_reducer';
 // external modules
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -20,3 +22,9 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+
+const rootReducer = combineReducers({
+ cities: CitiesReducer
+});
+
+export default rootReducer;
